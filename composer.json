@@ -21,7 +21,15 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "drupal/components": "^1.0",
+        "pattern-lab/styleguidekit-twig-default": "^3.0",
+        "drupal/ui_patterns": "^1.0@beta",
+        "drupal/devel": "^1.0@RC",
+        "drupal/admin_toolbar": "^1.18",
+        "drupal/layout_plugin": "^1.0@alpha",
+        "drupal/field_group": "^1.0@RC",
+        "drupal/ds": "^2.6"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -58,6 +66,7 @@
         ]
     },
     "extra": {
+        "enable-patching": true,
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
