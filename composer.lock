@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d614cf655686d9e6a54d75841ff5ba36",
+    "content-hash": "dca1863ba14d49a6c3ff58b194cd4255",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1081,7 +1081,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.18.zip",
-                "reference": null,
+                "reference": "8.x-1.18",
                 "shasum": "ea5b6b5eb20757fda12e7220819a750e2575359b"
             },
             "require": {
@@ -1141,7 +1141,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/components-8.x-1.0.zip",
-                "reference": null,
+                "reference": "8.x-1.0",
                 "shasum": "adb1872a655466d575c2d3396f7ca2daba0a2918"
             },
             "require": {
@@ -1605,6 +1605,85 @@
             "time": "2017-02-01T17:03:36+00:00"
         },
         {
+            "name": "drupal/ctools",
+            "version": "3.0.0-alpha27",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/ctools",
+                "reference": "8.x-3.0-alpha27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0-alpha27.zip",
+                "reference": "8.x-3.0-alpha27",
+                "shasum": "3e069c46902dd05c2a4e0caf7b185942e9b53238"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-alpha27",
+                    "datestamp": "1471723439"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "EclipseGc",
+                    "homepage": "https://www.drupal.org/user/61203"
+                },
+                {
+                    "name": "damiankloip",
+                    "homepage": "https://www.drupal.org/user/1037976"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "esmerel",
+                    "homepage": "https://www.drupal.org/user/164022"
+                },
+                {
+                    "name": "japerry",
+                    "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "merlinofchaos",
+                    "homepage": "https://www.drupal.org/user/26979"
+                },
+                {
+                    "name": "neclimdul",
+                    "homepage": "https://www.drupal.org/user/48673"
+                },
+                {
+                    "name": "sdboyer",
+                    "homepage": "https://www.drupal.org/user/146719"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                },
+                {
+                    "name": "tim.plunkett",
+                    "homepage": "https://www.drupal.org/user/241634"
+                }
+            ],
+            "description": "Provides a number of utility and helper APIs for Drupal developers and site builders.",
+            "homepage": "https://www.drupal.org/project/ctools",
+            "support": {
+                "source": "http://cgit.drupalcode.org/ctools"
+            }
+        },
+        {
             "name": "drupal/devel",
             "version": "1.0.0-rc1",
             "source": {
@@ -1615,7 +1694,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/devel-8.x-1.0-rc1.zip",
-                "reference": null,
+                "reference": "8.x-1.0-rc1",
                 "shasum": "04a01f50d508eca70e065b7eba38cd6c83a436c0"
             },
             "require": {
@@ -1705,7 +1784,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/ds-8.x-2.6.zip",
-                "reference": null,
+                "reference": "8.x-2.6",
                 "shasum": "6cec63a526b31f90b57d8958348280fb05ff8bec"
             },
             "require": {
@@ -1775,7 +1854,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/field_group-8.x-1.0-rc6.zip",
-                "reference": null,
+                "reference": "8.x-1.0-rc6",
                 "shasum": "1ce3c6387e745a04a1099956a5bf39bb50096d44"
             },
             "require": {
@@ -1834,7 +1913,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha23.zip",
-                "reference": null,
+                "reference": "8.x-1.0-alpha23",
                 "shasum": "c79992e2f52ac6a7c8dc0706512f2c70fc9f5e11"
             },
             "require": {
@@ -1879,6 +1958,127 @@
             }
         },
         {
+            "name": "drupal/pathauto",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/pathauto",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.0-rc1.zip",
+                "reference": null,
+                "shasum": "2460339ac8739317b3c4e66e9ce7142cc02adac3"
+            },
+            "require": {
+                "drupal/core": "*",
+                "drupal/ctools": "*",
+                "drupal/token": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1485702484"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "Freso",
+                    "homepage": "https://www.drupal.org/user/27504"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                }
+            ],
+            "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
+            "homepage": "https://www.drupal.org/project/pathauto",
+            "support": {
+                "source": "http://cgit.drupalcode.org/pathauto"
+            }
+        },
+        {
+            "name": "drupal/token",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/token",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "204b2f18a3d770589d66656aa83121d2156d0a31"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1483290542"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "eaton",
+                    "homepage": "https://www.drupal.org/user/16496"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                },
+                {
+                    "name": "mikeryan",
+                    "homepage": "https://www.drupal.org/user/4420"
+                }
+            ],
+            "description": "Provides a user interface for the Token API and some missing core tokens.",
+            "homepage": "https://www.drupal.org/project/token",
+            "support": {
+                "source": "http://cgit.drupalcode.org/token",
+                "issues": "https://www.drupal.org/project/issues/token"
+            }
+        },
+        {
             "name": "drupal/ui_patterns",
             "version": "1.0.0-beta5",
             "source": {
@@ -1889,7 +2089,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/ui_patterns-8.x-1.0-beta5.zip",
-                "reference": null,
+                "reference": "8.x-1.0-beta5",
                 "shasum": "94bcdf94de5a3d6430d3f713f512ab7befe8c1cb"
             },
             "require": {
@@ -6447,7 +6647,8 @@
         "drupal/ui_patterns": 10,
         "drupal/devel": 5,
         "drupal/layout_plugin": 15,
-        "drupal/field_group": 5
+        "drupal/field_group": 5,
+        "drupal/pathauto": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,

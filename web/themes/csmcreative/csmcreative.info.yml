@@ -1,0 +1,10 @@
+name: csmcreative
+type: theme
+description: Custom theme by Chris McAndrew with no base theme.
+package: Other
+core: 8.x
+libraries:
+  - csmcreative/global-styling
+
+base theme: false
+
